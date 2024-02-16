@@ -16,6 +16,16 @@ public class Product {
     private double price;
     private String EAN13;
 
+    public Product(String name, String description, double price, String EAN13) {
+        this.name = name;
+        this.description = description;
+        this.price = price;
+        this.EAN13 = EAN13;
+    }
+
+    public Product() {
+    }
+
     public int getId() {
         return id;
     }
